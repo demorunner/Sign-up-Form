@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="banner">
+            <div class="banner-logo">
+                <img id="logo" src="odin.png" alt="Banner">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <div class="form-head">
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams.
+                </p>
+                <p>Sign up now to get started.</p>
+                <h2> You <em>know</em> you want to.</h2>
+            </div>
+            <div class="form-panel">
+                <p>Let's do this!</p>
+                <form action="#" id="form-main">
+
+                    <div class="input">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required />
+                    </div>
+
+                    <div class="input">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="user_email">EMAIL</label>
+                        <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="number" id="phone_number" name="phone_number" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="password" minlength="8" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="confirm_password" minlength="8" required>
+                    </div>
+
+                </form>
+            </div>
+            <div class="form-footer">
+                <button type="submit" id="btn" form="form-main">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
